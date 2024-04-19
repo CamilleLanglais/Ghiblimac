@@ -1,9 +1,9 @@
 <template>
     <div class="sort">
-        <button @click="sortByTitle()" :class="{ 'active': sortCriteria === 'title' }" >Trier par titre</button>
-        <button @click="sortByDate()" :class="{ 'active': sortCriteria === 'date' }">Trier par date de sortie</button>
-        <button @click="sortByDirector()" :class="{ 'active': sortCriteria === 'director' }">Trier par directeur</button>
-        <button @click="sortByTime()" :class="{ 'active': sortCriteria === 'time' }">Trier par durée du film</button>
+        <button @click="sortByTitle()" :class="{ 'active': sortCriteria === 'title' }" >Sort by title</button>
+        <button @click="sortByDate()" :class="{ 'active': sortCriteria === 'date' }">Sort by release date</button>
+        <button @click="sortByDirector()" :class="{ 'active': sortCriteria === 'director' }">Sort by director</button>
+        <button @click="sortByTime()" :class="{ 'active': sortCriteria === 'time' }">Sort by movie length</button>
     </div>
 </template>
 

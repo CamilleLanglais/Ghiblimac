@@ -1,7 +1,7 @@
 <template>
     <form @submit.prevent="searchMovies">
-        <input type="text" v-model="searchQuery" placeholder="Rechercher un film">
-        <button type="submit">Rechercher</button>
+        <input type="text" v-model="searchQuery" placeholder="Search for a movie">
+        <button type="submit">Research</button>
     </form>
 </template>
 

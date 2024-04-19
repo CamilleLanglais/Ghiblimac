@@ -9,7 +9,7 @@ import TheWelcome from './components/TheWelcome.vue'*/
       <img src="../assets/logo-ghibli.png" alt="Logo Ghiblimac">
       <div class="titlehead">
         <h1> Ghiblimac </h1>
-        <h2> Le site officiel des IMAC</h2>
+        <h2> The official website</h2>
       </div>
     </div>
     <div class="wave">
@@ -27,7 +27,7 @@ import TheWelcome from './components/TheWelcome.vue'*/
   <footer>
     <div class="IMAC">
       <img src="../assets/logo_imac.png" alt="logo IMAC" class="logoIMAC">
-      <p>Un site IMAC</p>
+      <p>An IMAC website</p>
     </div>
   </footer>
   

@@ -3,7 +3,7 @@
      <div v-if="test">
         <div class="detail" v-if="showDetails">
             <div class="back">
-                <button @click="showList()">Revenir à la liste</button>
+                <button @click="showList()">Return to list</button>
             </div>
             <Detail :ghibli="selectedGhibli" />
         </div>
