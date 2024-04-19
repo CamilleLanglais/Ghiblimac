@@ -17,8 +17,7 @@
         data() {
             return {
                 filteredData : [],
-                searchQuery: '',
-                
+                searchQuery: '',  
             }
         },
         methods: {
@@ -32,7 +31,7 @@
 
             localStorage.searchQuery = this.searchQuery;
             this.$emit('filtered', this.filteredData);
-        },
+            },
         }
 
         

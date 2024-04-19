@@ -97,8 +97,8 @@ export default {
 
         //Detail
         showDetail(ghibli) {
-        this.selectedGhibli = ghibli;
-        this.showDetails = true;
+            this.selectedGhibli = ghibli;
+            this.showDetails = true;
         },
         showList(){
             this.showDetails = false;
@@ -107,10 +107,10 @@ export default {
     
     mounted() {
         this.retrieveGhibliData();
-        if(localStorage.searchQuery){
-            this.searchQuery = localStorage.searchQuery;
-        }
-    },
+            if(localStorage.searchQuery){
+                this.searchQuery = localStorage.searchQuery;
+            }
+        },
     components : {cardGhibli, Detail, sortGhibli, searchGhibli}
 }
 

@@ -63,14 +63,14 @@
         },
         sortByTime(){
             this.ghibliData.sort((a, b) => {
-                    if (a.running_time && b.running_time) {
+                if (a.running_time && b.running_time) {
                     const runningTimeA = a.running_time.includes('min') ? parseInt(a.running_time) : parseInt(a.running_time) * 60;
                     const runningTimeB = b.running_time.includes('min') ? parseInt(b.running_time) : parseInt(b.running_time) * 60;
                     return runningTimeA - runningTimeB;
                 } else {
                     return 0;
                 }
-                });
+            });
 
             this.sortCriteria = 'time';
             localStorage.sort = 'time';
